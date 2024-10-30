@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>
+Registration Page
+</title>
+</head>
+<body bgcolor="lightskyblue">
+<br>
+<br>
+<from>
+<label>Firstname:</label>
+<input type="text" name="firstname" size="15"><br><br>
+<label>Middlename:</label>
+<input type="text" name="middlename" size="15"><br><br>
+<label>Lastname:</label>
+<input type="text" name="lastname" size="15"><br><br>
+<label>Course:</label>
+<select>
+<option value="Course">Course</option>
+<option value="CSE">CSE</option>
+<option value="EEE">EEE</option>
+<option value="ECE">ECE</option>
+<option value="Civil">Civil</option>
+</select>
+<br>
+<br>
+<label>Gender:</label><br>
+<input type="radio" name="Male">Male<br>
+<input type="radio" name="Female">Female<br>
+<input type="radio" name="Other">Other<br><br>
+<label>Phone:</label><br>
+<input type="text" name="Country" value="+91" size="2">
+<input type="text" name="Phone" size="10"><br><br>
+<label>Address:</label><br>
+<textarea cols="80" rows="5" value="address">
+</textarea>
+<br><br>
+<label>Email:</label><br>
+<input type="email" id="email" name="email"><br><br>
+<label>PAssword:</label><br>
+<input type="Password" id="Pass" name="pass"><br><br>
+<input type="button" value="submit">
+</form>
+</body>
+</html>
+
